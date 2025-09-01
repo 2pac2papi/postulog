@@ -1,0 +1,15 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+.container-nice{ @apply mx-auto max-w-7xl p-6; }
+.card{ @apply rounded-2xl border border-gray-200 bg-white shadow-sm; }
+.card-header{ @apply px-4 pt-4 pb-2; } .card-title{ @apply text-sm font-semibold text-gray-700; }
+.card-content{ @apply p-4; } .btn{ @apply inline-flex items-center justify-center rounded-2xl border border-gray-300 px-3 py-2 text-sm font-medium transition hover:bg-gray-50; }
+.btn.primary{ @apply border-transparent bg-gray-900 text-white hover:bg-black; }
+.badge{ @apply inline-flex items-center rounded-full px-2 py-1 text-xs font-medium; }
+.input,.select,.textarea{ @apply w-full rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm outline-none; }
+.label{ @apply text-sm font-medium text-gray-700; }
+table thead th{ @apply bg-gray-50 text-left text-xs font-semibold uppercase tracking-wide text-gray-500; }
+table td,table th{ @apply px-4 py-3 align-top; }
+.tabs{ @apply inline-flex gap-2 rounded-2xl bg-gray-100 p-1; }
+.tab{ @apply rounded-xl px-3 py-1.5 text-sm font-medium text-gray-600; }
+.tab.active{ @apply bg-white text-gray-900 shadow; }
+.hidden-native{ display:none; }
